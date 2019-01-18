@@ -17,7 +17,7 @@ namespace ChallengeProblemsTest
 									 "I watched C -beams glitter in the dark near the Tannhäuser Gate. " +
 									 "All those moments will be lost in time, like tears in rain. Time to die.";
 
-			Dictionary<char, float> characterDistribution = calculator.ComputeCharacterDistribution(battysSoliloquy);
+			IDictionary<char, float> characterDistribution = calculator.ComputeCharacterDistribution(battysSoliloquy);
 			
 			Assert.Equal(0.050, characterDistribution['r'], 2);
 			Assert.Equal(0.061, characterDistribution['a'], 2);
