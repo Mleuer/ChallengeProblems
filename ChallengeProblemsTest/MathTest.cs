@@ -10,7 +10,7 @@ namespace ChallengeProblemsTest
 		{
 			Assert.Equal(24, Maths.Factorial(4));
 			Assert.Equal(720, Maths.Factorial(6));
-			Assert.Equal(11, Maths.Factorial(39916800));
+			Assert.Equal(362880, Maths.Factorial(9));
 		}
 	}
 }
