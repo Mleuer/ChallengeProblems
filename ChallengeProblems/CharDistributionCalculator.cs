@@ -22,8 +22,8 @@ namespace ChallengeProblems
 		/// and the values are the percentage of the string made up by each character.</returns>
 		public Dictionary<char, float> ComputeCharacterDistribution(String text)
 		{
-			throw new Exception("ComputeCharacterDistribution() doesn't do anything yet!");
+			throw new Exception();
 		}
-		
+
 	}
 }

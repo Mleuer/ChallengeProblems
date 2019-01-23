@@ -8,9 +8,9 @@ namespace ChallengeProblemsTest
 		[Fact]
 		public void FactorialShouldComputeFactorialOfN()
 		{
-			Assert.Equal(24, Maths.Factorial(4));
-			Assert.Equal(720, Maths.Factorial(6));
-			Assert.Equal(362880, Maths.Factorial(9));
+			Assert.Equal(24u, Maths.Factorial(4));
+			Assert.Equal(720u, Maths.Factorial(6));
+			Assert.Equal(362880u, Maths.Factorial(9));
 		}
 	}
 }
