@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ChallengeProblems
 {
-	public class CharDistributionCalculator
+	public static class StringUtilities
 	{
 		/// <summary>
 		/// This method computes the distribution of each character in a string of text. That is, it determines,
@@ -20,9 +20,27 @@ namespace ChallengeProblems
 		/// </summary>
 		/// <returns>A Dictionary (i.e. a hashmap) where the keys are each character that appeared in the string,
 		/// and the values are the percentage of the string made up by each character.</returns>
-		public Dictionary<char, float> ComputeCharacterDistribution(String text)
+		public static Dictionary<char, float> ComputeCharacterDistribution(String text)
 		{
 			throw new Exception("ComputeCharacterDistribution() doesn't do anything yet!");
+		}
+		
+		/// <param name="word">The String to check</param>
+		/// <returns>true if word is a palindrome, false if not</returns>
+		public static bool IsPalindrome(String word)
+		{
+			throw new Exception("IsPalindrome() doesn't do anything yet!");
+		}
+
+		/// <summary>
+		/// Creates a new String that is the reverse of word. For example, for the argument "lots", Reverse()
+		/// will return "stol"
+		/// </summary>
+		/// <param name="word">The string to reverse</param>
+		/// <returns>The reverse of word</returns>
+		public static String Reverse(String word)
+		{
+			throw new Exception("Reverse() doesn't do anything yet!");
 		}
 		
 	}

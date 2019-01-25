@@ -13,5 +13,10 @@ namespace ChallengeProblems
 		{
 			throw new Exception("Factorial() doesn't do anything yet!");
 		}
+
+		public static int RaiseToPower(int n, int power)
+		{
+			throw new Exception("RaiseToPower() doesn't do anything yet!");
+		}
 	}
 }
