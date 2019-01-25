@@ -14,6 +14,7 @@ namespace ChallengeProblems
 			throw new Exception("Factorial() doesn't do anything yet!");
 		}
 
+		/// <returns>The result of raising n to the power given by the power argument</returns>
 		public static int RaiseToPower(int n, int power)
 		{
 			throw new Exception("RaiseToPower() doesn't do anything yet!");
