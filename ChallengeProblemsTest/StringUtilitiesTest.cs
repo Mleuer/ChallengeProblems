@@ -39,5 +39,13 @@ namespace ChallengeProblemsTest
 			Assert.Equal("radical", StringUtilities.Reverse("lacidar"));
 			Assert.Equal("racecar", StringUtilities.Reverse("racecar"));
 		}
+		
+		[Fact]
+		public void ShouldRemoveVowels()
+		{
+			Assert.Equal("spk frnd", StringUtilities.RemoveVowels("speak friend"));
+			Assert.Equal("nd ntr", StringUtilities.RemoveVowels("and enter"));
+			Assert.Equal("th wy s sht", StringUtilities.RemoveVowels("the way is shut"));
+		}
 	}
 }

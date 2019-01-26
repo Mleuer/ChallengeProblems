@@ -43,5 +43,16 @@ namespace ChallengeProblems
 			throw new Exception("Reverse() doesn't do anything yet!");
 		}
 		
+		/// <summary>
+		/// Removes all vowels (excluding 'y') from a string, so that, for example, "happy birthday" becomes
+		/// "hppy brthdy"
+		/// </summary>
+		/// <param name="word">The word the vowels of which are to be removed</param>
+		/// <returns>The input string with all vowels removed</returns>
+		public static String RemoveVowels(String word)
+		{
+			throw new Exception("RemoveVowels() doesn't do anything yet!");			
+		}
+		
 	}
 }
