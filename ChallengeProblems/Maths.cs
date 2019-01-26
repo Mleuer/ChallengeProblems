@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ChallengeProblems
 {
@@ -12,6 +13,13 @@ namespace ChallengeProblems
 		public static int Factorial(int n)
 		{
 			throw new Exception("Factorial() doesn't do anything yet!");
+		}
+		
+		/// <param name="numbers">The integers to be averaged</param>
+		/// <returns>The average of all the integers in numbers</returns>
+		public static float Average(List<int> numbers)
+		{
+			throw new Exception("Average() doesn't do anything yet!");
 		}
 
 		/// <returns>The result of raising n to the power given by the power argument</returns>

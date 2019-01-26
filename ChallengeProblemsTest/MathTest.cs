@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using ChallengeProblems;
 using Xunit;
 
@@ -11,6 +12,14 @@ namespace ChallengeProblemsTest
 			Assert.Equal(24, Maths.Factorial(4));
 			Assert.Equal(720, Maths.Factorial(6));
 			Assert.Equal(362880, Maths.Factorial(9));
+		}
+		
+		[Fact]
+		public void AverageShouldComputeAverageOfGivenNumbers()
+		{
+			Assert.Equal(2.0, Maths.Average(new List<int>{1, 2, 3}));
+			Assert.Equal(121208.0, Maths.Average(new List<int>{24, 720, 362880}));
+			Assert.Equal(4.667, Maths.Average(new List<int>{2, 3, 9}),3);
 		}
 		
 		[Fact]
