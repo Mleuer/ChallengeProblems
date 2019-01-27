@@ -1,5 +1,9 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 namespace ChallengeProblems
 {
@@ -22,8 +26,57 @@ namespace ChallengeProblems
 		/// and the values are the percentage of the string made up by each character.</returns>
 		public Dictionary<char, float> ComputeCharacterDistribution(String text)
 		{
-			throw new Exception();
+			Dictionary<char, float>	characterDistribution = new Dictionary<char, float>();
+			
+			string cleanedText = CharDistributionCalculator.Clean(text);
+
+			int totalCharacters = cleanedText.Length;
+			
+			foreach (char letter in cleanedText)
+			{
+				uint count = CharacterCount(letter, cleanedText);
+				float percentage = (float)count / (float)totalCharacters;
+				characterDistribution[letter] = percentage;
+			}
+
+			return characterDistribution;
 		}
 
+		public static string Clean(string text)
+		{
+			List<char> validCharacters = new List<char>(){'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
+				'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+			validCharacters.Add('a');
+			validCharacters.Add('b');
+
+			StringBuilder cleanedStringBuilder = new StringBuilder();
+
+			foreach (char letter in text)
+			{
+				char lowerCaseLetter = Char.ToLower(letter);
+				
+				if (validCharacters.Contains(lowerCaseLetter))
+				{
+					cleanedStringBuilder.Append(lowerCaseLetter);
+				}
+			}
+
+			return cleanedStringBuilder.ToString();
+		}
+
+		public static uint CharacterCount(char characterToCount, string textToSearch)
+		{
+			uint count = 0;
+			
+			foreach (char character in textToSearch)
+			{
+				if (character == characterToCount)
+				{
+					count++;
+				}
+			}
+
+			return count;
+		}
 	}
 }
