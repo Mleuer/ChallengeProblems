@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ChallengeProblems
 {
-	public class CharDistributionCalculator
+	public static class StringUtilities
 	{
 		/// <summary>
 		/// This method computes the distribution of each character in a string of text. That is, it determines,
@@ -24,11 +24,11 @@ namespace ChallengeProblems
 		/// </summary>
 		/// <returns>A Dictionary (i.e. a hashmap) where the keys are each character that appeared in the string,
 		/// and the values are the percentage of the string made up by each character.</returns>
-		public Dictionary<char, float> ComputeCharacterDistribution(String text)
+		public static Dictionary<char, float> ComputeCharacterDistribution(String text)
 		{
 			Dictionary<char, float>	characterDistribution = new Dictionary<char, float>();
 			
-			string cleanedText = CharDistributionCalculator.Clean(text);
+			string cleanedText = Clean(text);
 
 			int totalCharacters = cleanedText.Length;
 			
@@ -41,7 +41,48 @@ namespace ChallengeProblems
 
 			return characterDistribution;
 		}
+		
+		/// <param name="word">The String to check</param>
+		/// <returns>true if word is a palindrome, false if not</returns>
+		public static bool IsPalindrome(String word)
+		{
+			for (int i = 0; i < word.Length / 2; i++)
+			{
+				char firstCharacter = word[i];
+				char secondCharacter = word[word.Length - 1 - i];
 
+				if (firstCharacter != secondCharacter)
+				{
+					return false;
+				}
+
+			}
+
+			return true;
+		}
+
+		/// <summary>
+		/// Creates a new String that is the reverse of word. For example, for the argument "lots", Reverse()
+		/// will return "stol"
+		/// </summary>
+		/// <param name="word">The string to reverse</param>
+		/// <returns>The reverse of word</returns>
+		public static String Reverse(String word)
+		{
+			throw new Exception("Reverse() doesn't do anything yet!");
+		}
+		
+		/// <summary>
+		/// Removes all vowels (excluding 'y') from a string, so that, for example, "happy birthday" becomes
+		/// "hppy brthdy"
+		/// </summary>
+		/// <param name="word">The word the vowels of which are to be removed</param>
+		/// <returns>The input string with all vowels removed</returns>
+		public static String RemoveVowels(String word)
+		{
+			throw new Exception("RemoveVowels() doesn't do anything yet!");			
+		}
+		
 		public static string Clean(string text)
 		{
 			List<char> validCharacters = new List<char>(){'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
@@ -63,7 +104,7 @@ namespace ChallengeProblems
 
 			return cleanedStringBuilder.ToString();
 		}
-
+		
 		public static uint CharacterCount(char characterToCount, string textToSearch)
 		{
 			uint count = 0;
@@ -78,5 +119,6 @@ namespace ChallengeProblems
 
 			return count;
 		}
+		
 	}
 }

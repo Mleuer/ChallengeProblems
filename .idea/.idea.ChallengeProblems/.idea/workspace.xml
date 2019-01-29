@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e2a3b4-91d4-4fd9-aea3-5fa01766f2d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChallengeProblems/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChallengeProblems/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChallengeProblems/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChallengeProblems/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChallengeProblems/CharDistributionCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChallengeProblems/CharDistributionCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChallengeProblemsTest/CharDistributionCalculatorTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChallengeProblemsTest/CharDistributionCalculatorTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChallengeProblems/ChallengeProblems.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ChallengeProblems/ChallengeProblems.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChallengeProblems/Maths.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChallengeProblems/Maths.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChallengeProblems/PalindromeFinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChallengeProblems/StringUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChallengeProblems/StringUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChallengeProblemsTest/CharDistributionCalculatorTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChallengeProblemsTest/StringUtilitiesTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChallengeProblemsTest/StringUtilitiesTest.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,71 +20,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChallengeProblems/PalindromeFinder.cs">
+        <entry file="file://$PROJECT_DIR$/ChallengeProblems/StringUtilities.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="-930">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
-                <marker date="1548208277496" expanded="true" signature="42:489" ph="{...}" />
-                <marker date="1548208277496" expanded="true" signature="75:487" ph="{...}" />
-                <marker date="1548208277496" expanded="true" signature="81:199" ph="/// &lt;param name=&quot;word&quot;&gt;The String to check&lt;/param&gt; ... " />
-                <marker date="1548208277496" expanded="true" signature="239:484" ph="{...}" />
-                <marker date="1548208277496" expanded="true" signature="288:463" ph="{...}" />
-                <marker date="1548208277496" expanded="true" signature="426:457" ph="{...}" />
+                <marker date="1548725721451" expanded="false" signature="6:184" ph="..." />
+                <marker date="1548725721451" expanded="true" signature="213:4033" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="252:4031" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="258:1434" ph="/// This method computes the distribution of each character in a string of text. That is, it determines, ... " />
+                <marker date="1548725721451" expanded="true" signature="1516:1945" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="1733:1907" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="1951:2069" ph="/// &lt;param name=&quot;word&quot;&gt;The String to check&lt;/param&gt; ... " />
+                <marker date="1548725721451" expanded="true" signature="2116:2361" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="2165:2340" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="2303:2334" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="2365:2624" ph="/// Creates a new String that is the reverse of word. For example, for the argument &quot;lots&quot;, Reverse() ... " />
+                <marker date="1548725721451" expanded="true" signature="2668:2738" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="2744:3043" ph="/// Removes all vowels (excluding 'y') from a string, so that, for example, &quot;happy birthday&quot; becomes ... " />
+                <marker date="1548725721451" expanded="true" signature="3092:3170" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="3215:3774" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="3268:3393" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="3548:3726" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="3658:3721" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="3857:4025" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="3928:4003" ph="{...}" />
+                <marker date="1548725721451" expanded="true" signature="3972:3998" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChallengeProblems/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChallengeProblems/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding>
+                <marker date="1548028779836" expanded="true" signature="42:157" ph="{...}" />
+                <marker date="1548028779836" expanded="true" signature="73:155" ph="{...}" />
+                <marker date="1548028779836" expanded="true" signature="104:152" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChallengeProblems/Maths.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <marker date="1548725721518" expanded="false" signature="6:47" ph="..." />
+                <marker date="1548725721518" expanded="true" signature="76:902" ph="{...}" />
+                <marker date="1548725721518" expanded="true" signature="105:900" ph="{...}" />
+                <marker date="1548725721518" expanded="true" signature="111:293" ph="/// Computes the factorial of n ... " />
+                <marker date="1548725721518" expanded="true" signature="332:454" ph="{...}" />
+                <marker date="1548725721518" expanded="true" signature="381:428" ph="{...}" />
+                <marker date="1548725721518" expanded="true" signature="460:589" ph="/// &lt;param name=&quot;numbers&quot;&gt;The integers to be averaged&lt;/param&gt; ... " />
+                <marker date="1548725721518" expanded="true" signature="638:708" ph="{...}" />
+                <marker date="1548725721518" expanded="true" signature="822:897" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ChallengeProblemsTest/PalinedromeFinderTest.cs">
+        <entry file="file://$PROJECT_DIR$/ChallengeProblemsTest/StringUtilitiesTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
-                <marker date="1548028779838" expanded="false" signature="6:37" ph="..." />
-                <marker date="1548028779838" expanded="true" signature="70:485" ph="{...}" />
-                <marker date="1548028779838" expanded="true" signature="108:483" ph="{...}" />
-                <marker date="1548028779838" expanded="true" signature="174:480" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChallengeProblems/CharDistributionCalculator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-              <folding>
-                <marker date="1548551060329" expanded="true" signature="6:165" ph="..." />
-                <marker date="1548551060329" expanded="true" signature="213:2825" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="256:2823" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="262:1438" ph="/// This method computes the distribution of each character in a string of text. That is, it determines, ... " />
-                <marker date="1548551060329" expanded="true" signature="1513:1969" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="1757:1931" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="2012:2571" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="2065:2190" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="2345:2523" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="2455:2518" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="2652:2820" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="2723:2798" ph="{...}" />
-                <marker date="1548551060329" expanded="true" signature="2767:2793" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ChallengeProblemsTest/CharDistributionCalculatorTest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <marker date="1548551285327" expanded="false" signature="6:85" ph="..." />
-                <marker date="1548551285327" expanded="true" signature="118:984" ph="{...}" />
-                <marker date="1548551285327" expanded="true" signature="165:982" ph="{...}" />
-                <marker date="1548551285327" expanded="true" signature="254:979" ph="{...}" />
+                <marker date="1548725974122" expanded="false" signature="6:85" ph="..." />
+                <marker date="1548725974122" expanded="true" signature="118:1690" ph="{...}" />
+                <marker date="1548725974122" expanded="true" signature="154:1688" ph="{...}" />
+                <marker date="1548725974122" expanded="true" signature="217:868" ph="{...}" />
+                <marker date="1548725974122" expanded="true" signature="918:1156" ph="{...}" />
+                <marker date="1548725974122" expanded="true" signature="1202:1404" ph="{...}" />
+                <marker date="1548725974122" expanded="true" signature="1451:1685" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,21 +121,21 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ChallengeProblemsTest/MathTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/25/8f18624b/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChallengeProblems/PalindromeFinder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChallengeProblems/Maths.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChallengeProblemsTest/StringUtilitiesTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChallengeProblems/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChallengeProblems/CharDistributionCalculator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChallengeProblemsTest/CharDistributionCalculatorTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChallengeProblemsTest/PalinedromeFinderTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChallengeProblems/StringUtilities.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ChallengeProblems/Maths.cs" />
         <option value="$PROJECT_DIR$/ChallengeProblemsTest/MathTest.cs" />
-        <option value="$PROJECT_DIR$/ChallengeProblems/PalindromeFinder.cs" />
         <option value="$PROJECT_DIR$/ChallengeProblems/CharDistributionCalculator.cs" />
         <option value="$PROJECT_DIR$/ChallengeProblemsTest/CharDistributionCalculatorTest.cs" />
+        <option value="$PROJECT_DIR$/ChallengeProblems/PalindromeFinder.cs" />
+        <option value="$PROJECT_DIR$/ChallengeProblems/StringUtilities.cs" />
+        <option value="$PROJECT_DIR$/ChallengeProblems/Maths.cs" />
+        <option value="$PROJECT_DIR$/ChallengeProblemsTest/StringUtilitiesTest.cs" />
       </list>
     </option>
   </component>
@@ -143,8 +171,8 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,11 +228,12 @@
       <workItem from="1548111962146" duration="1060000" />
       <workItem from="1548114141756" duration="8075000" />
       <workItem from="1548283387862" duration="15482000" />
+      <workItem from="1548724172579" duration="1922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26610000" />
+    <option name="totallyTimeSpent" value="28532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,7 +247,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="778" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -232,9 +261,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32944608" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" order="11" sideWeight="0.4983845" visible="true" weight="0.3090379" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" sideWeight="0.4983845" visible="true" weight="0.3090379" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5016155" side_tool="true" weight="0.3090379" />
       <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49917898" weight="0.32944608" />
@@ -258,33 +287,20 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChallengeProblems/CharDistributionCalculator.cs</url>
-          <line>34</line>
-          <properties documentPath="$PROJECT_DIR$/ChallengeProblems/CharDistributionCalculator.cs" initialLine="34">
-            <startOffsets>
-              <option value="1721" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1757" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -301,54 +317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChallengeProblems/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <marker date="1548028779836" expanded="true" signature="42:157" ph="{...}" />
-            <marker date="1548028779836" expanded="true" signature="73:155" ph="{...}" />
-            <marker date="1548028779836" expanded="true" signature="104:152" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChallengeProblems/Maths.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <marker date="1548118185212" expanded="true" signature="42:666" ph="{...}" />
-            <marker date="1548118185212" expanded="true" signature="71:664" ph="{...}" />
-            <marker date="1548118185212" expanded="true" signature="77:259" ph="/// Computes the factorial of n ... " />
-            <marker date="1548118185212" expanded="true" signature="298:661" ph="{...}" />
-            <marker date="1548118185212" expanded="true" signature="303:429" ph="/* int factorial = g; ... */" />
-            <marker date="1548118185212" expanded="true" signature="471:522" ph="{...}" />
-            <marker date="1548118185212" expanded="true" signature="542:605" ph="{...}" />
-            <marker date="1548118185212" expanded="true" signature="613:656" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/25/8f18624b/Dictionary`2.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChallengeProblems/PalindromeFinder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <marker date="1548208277496" expanded="true" signature="42:489" ph="{...}" />
-            <marker date="1548208277496" expanded="true" signature="75:487" ph="{...}" />
-            <marker date="1548208277496" expanded="true" signature="81:199" ph="/// &lt;param name=&quot;word&quot;&gt;The String to check&lt;/param&gt; ... " />
-            <marker date="1548208277496" expanded="true" signature="239:484" ph="{...}" />
-            <marker date="1548208277496" expanded="true" signature="288:463" ph="{...}" />
-            <marker date="1548208277496" expanded="true" signature="426:457" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -374,28 +346,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChallengeProblemsTest/CharDistributionCalculatorTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <marker date="1548551285327" expanded="false" signature="6:85" ph="..." />
-            <marker date="1548551285327" expanded="true" signature="118:984" ph="{...}" />
-            <marker date="1548551285327" expanded="true" signature="165:982" ph="{...}" />
-            <marker date="1548551285327" expanded="true" signature="254:979" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ChallengeProblemsTest/PalinedromeFinderTest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChallengeProblems/PalindromeFinder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChallengeProblems/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1548028779838" expanded="false" signature="6:37" ph="..." />
-            <marker date="1548028779838" expanded="true" signature="70:485" ph="{...}" />
-            <marker date="1548028779838" expanded="true" signature="108:483" ph="{...}" />
-            <marker date="1548028779838" expanded="true" signature="174:480" ph="{...}" />
+            <marker date="1548028779836" expanded="true" signature="42:157" ph="{...}" />
+            <marker date="1548028779836" expanded="true" signature="73:155" ph="{...}" />
+            <marker date="1548028779836" expanded="true" signature="104:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChallengeProblems/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChallengeProblems/StringUtilities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <marker date="1548725721451" expanded="false" signature="6:184" ph="..." />
+            <marker date="1548725721451" expanded="true" signature="213:4033" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="252:4031" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="258:1434" ph="/// This method computes the distribution of each character in a string of text. That is, it determines, ... " />
+            <marker date="1548725721451" expanded="true" signature="1516:1945" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="1733:1907" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="1951:2069" ph="/// &lt;param name=&quot;word&quot;&gt;The String to check&lt;/param&gt; ... " />
+            <marker date="1548725721451" expanded="true" signature="2116:2361" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="2165:2340" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="2303:2334" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="2365:2624" ph="/// Creates a new String that is the reverse of word. For example, for the argument &quot;lots&quot;, Reverse() ... " />
+            <marker date="1548725721451" expanded="true" signature="2668:2738" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="2744:3043" ph="/// Removes all vowels (excluding 'y') from a string, so that, for example, &quot;happy birthday&quot; becomes ... " />
+            <marker date="1548725721451" expanded="true" signature="3092:3170" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="3215:3774" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="3268:3393" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="3548:3726" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="3658:3721" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="3857:4025" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="3928:4003" ph="{...}" />
+            <marker date="1548725721451" expanded="true" signature="3972:3998" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChallengeProblems/Maths.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <marker date="1548725721518" expanded="false" signature="6:47" ph="..." />
+            <marker date="1548725721518" expanded="true" signature="76:902" ph="{...}" />
+            <marker date="1548725721518" expanded="true" signature="105:900" ph="{...}" />
+            <marker date="1548725721518" expanded="true" signature="111:293" ph="/// Computes the factorial of n ... " />
+            <marker date="1548725721518" expanded="true" signature="332:454" ph="{...}" />
+            <marker date="1548725721518" expanded="true" signature="381:428" ph="{...}" />
+            <marker date="1548725721518" expanded="true" signature="460:589" ph="/// &lt;param name=&quot;numbers&quot;&gt;The integers to be averaged&lt;/param&gt; ... " />
+            <marker date="1548725721518" expanded="true" signature="638:708" ph="{...}" />
+            <marker date="1548725721518" expanded="true" signature="822:897" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChallengeProblemsTest/CharDistributionCalculatorTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChallengeProblemsTest/StringUtilitiesTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <marker date="1548725974122" expanded="false" signature="6:85" ph="..." />
+            <marker date="1548725974122" expanded="true" signature="118:1690" ph="{...}" />
+            <marker date="1548725974122" expanded="true" signature="154:1688" ph="{...}" />
+            <marker date="1548725974122" expanded="true" signature="217:868" ph="{...}" />
+            <marker date="1548725974122" expanded="true" signature="918:1156" ph="{...}" />
+            <marker date="1548725974122" expanded="true" signature="1202:1404" ph="{...}" />
+            <marker date="1548725974122" expanded="true" signature="1451:1685" ph="{...}" />
           </folding>
         </state>
       </provider>

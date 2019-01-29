@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ChallengeProblems
 {
@@ -11,30 +12,26 @@ namespace ChallengeProblems
 		/// <returns>The factorial of n</returns>
 		public static uint Factorial(uint n)
 		{
-//			int factorial = g;
-//			for (; g > 1; g--)
-//			{
-//				factorial = factorial * (g - 1);
-//			}
-//
-//			return factorial;
-			uint factorial = 0;
-			
-			if (n == 0)
+			uint factorial = n;
+			for (; n > 1; n--)
 			{
-				factorial = 1;
-				return factorial;
-			}
-			else if (n == 1)
-			{
-				factorial = 1;
-                return factorial;
-			}
-			else
-			{
-				return n * Factorial(n - 1);
+				factorial = factorial * (n - 1);
 			}
 
+			return factorial;
+		}
+		
+		/// <param name="numbers">The integers to be averaged</param>
+		/// <returns>The average of all the integers in numbers</returns>
+		public static float Average(List<int> numbers)
+		{
+			throw new Exception("Average() doesn't do anything yet!");
+		}
+
+		/// <returns>The result of raising a to the power x. </returns>
+		public static int RaiseToPower(int a, int x)
+		{
+			throw new Exception("RaiseToPower() doesn't do anything yet!");
 		}
 	}
 }
